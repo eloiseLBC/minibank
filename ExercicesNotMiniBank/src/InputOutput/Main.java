@@ -13,7 +13,6 @@ import static InputOutput.Joueuse.printPlayers;
 public class Main {
     public static void main(String[] args) {
         ObjectMapper objectMapper = new ObjectMapper();
-
         try {
             File fichier = new File("ExercicesNotMiniBank/src/InputOutput/joueuses.json");
             if (!fichier.exists()) {
